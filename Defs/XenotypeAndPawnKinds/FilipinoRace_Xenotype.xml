@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Defs>
+    <XenotypeDef ParentName="FilipinoRace_XenotypeDef_Base">
+        <defName>Filipino_Race</defName>
+        <label>filipino</label>
+        <description>A filipino race from the Philippines</description>
+        <generateWithXenogermReplicatingHediffChance>0.6</generateWithXenogermReplicatingHediffChance>
+	    <xenogermReplicatingDurationLeftDaysRange>0.1~10</xenogermReplicatingDurationLeftDaysRange>
+	    <combatPowerFactor>5.0</combatPowerFactor>
+	    <factionlessGenerationWeight>0.002</factionlessGenerationWeight>
+        <genes>
+            <li>Unstoppable</li>
+            <li>Aggression_DeadCalm</li>
+            <li>Body_Standard</li>
+            <li>PM_Immortal</li>
+            <li>PM_AsexualFission</li>
+        </genes>
+    </XenotypeDef>
+</Defs>
