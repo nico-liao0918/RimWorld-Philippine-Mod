@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Defs>
+    <PawnKindDef Name="PH_FR_XenoBase" Abstract="True">
+        <race>Human</race>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <combatPower>100</combatPower>
+        <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
+        <chemicalAddictionChance>0.0</chemicalAddictionChance>
+        <isFighter>false</isFighter>
+        <weaponMoney>0</weaponMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelColor>(40,40,40)</apparelColor>
+        <chronologicalAgeRange>300~2000</chronologicalAgeRange>
+        <initialResistanceRange>10~25</initialResistanceRange>
+        <initialWillRange>5~15</initialWillRange>
+        <defaultFactionType>PlayerColony</defaultFactionType>
+        <apparelMoney>80~120</apparelMoney>
+        <maxGenerationAge>23</maxGenerationAge>
+        <apparelIgnorePollution>true</apparelIgnorePollution>
+        <requiredWorkTags>
+          <li>Intellectual</li>
+          <li>Crafting</li>
+          <li>Plants</li>
+          <li>Cooking</li>
+          <li>Social</li>
+          <li>Artistic</li>
+          <li>Animals</li>
+          <li>AllWork</li>
+        </requiredWorkTags>
+    </PawnKindDef>
+</Defs>
