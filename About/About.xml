@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ModMetaData>
+    <name>
+        Philippine Mod
+    </name>
+    <author>
+        nico-liao0918, James Dominic Liao, and Omni777
+    </author>
+    <description>
+        This mod brings the Philippines into the gameworld of RimWorld. This adds the Race, Weapons, Uniforms or Attire, and many more
+    </description>
+    <supportedVersion>
+        <li>
+            1.5
+        </li>
+    </supportedVersion>
+    <packageId>
+        3Men.PhilippineMod
+    </packageId>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>UnlimitedHugs.HugsLib</packageId>
+            <displayName>HugsLib</displayName>
+            <url>https://ludeon.com/forums/index.php?topic=28066.0</url>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+        <li>UnlimitedHugs.HugsLib</li>
+    </loadAfter>
+    <incompatibleWith>
+    </incompatibleWith>
+</ModMetaData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<GeneDef>
+		<defName>PM_Immortal</defName>
+		<label>immortal</label>
+		<description>Carriers of this gene will not die.</description>
+		<biostatCpx>10</biostatCpx>
+		<displayCategory>Archite</displayCategory>
+		<marketValueFactor>2</marketValueFactor>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>2</biostatCpx>
+		<biostatArc>1</biostatArc>
+		<biostatMet>0</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>no age</symbol>
+				</li>
+				<li>
+					<symbol>immortal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<customEffectDescriptions>
+			<li>Will not die</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="PhilippineMod.Immortal">
+				<hediffToWholeBody>PM_Immortal</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>

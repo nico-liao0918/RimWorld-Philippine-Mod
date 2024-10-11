@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Defs>
+    <XenotypeDefs name="FilipinoRace_XenotypeDef_Base" ParentName="Baseliner" Abstract="True">
+        <defname>FilipinoRace</defname>
+        <label>Filipino</label>
+        <description>The Philippine Race</description>
+    </XenotypeDefs>
+    <XenotypeDefs name="FilipinoRace_XenotypeDef_Base" ParentName="Baseliner">
+        <inheritable>true</inheritable>
+        <combatPowerFactor>5</combatPowerFactor>
+    </XenotypeDefs>
+</Defs>
